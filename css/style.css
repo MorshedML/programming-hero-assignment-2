@@ -160,11 +160,26 @@
     /* Header Banner */
 
     
+    .header-banner img{
+
+        width: 393.18px;
+        height: 245px;
+    }
 
 
+    .header-banner{
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 1.75rem;
+    }
 
+    .banner-title{
+        font-size: 1.5rem;    
+    }
 
-
+    .banner-description{
+        font-size: 0.875rem;
+    }
 
 }
 
