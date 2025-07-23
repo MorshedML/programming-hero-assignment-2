@@ -42,7 +42,6 @@
     width: 100%;
     font-weight: 600;
     cursor: pointer;
-    margin-top: 10px;
 }
 
 
@@ -182,6 +181,9 @@ main section{
 .plants-item img {
     width: 100%;
 }
+.plants-item{
+    margin-bottom:30px ;
+}
 
 .plants-item,.item-info{
     max-width: 350px;
@@ -260,6 +262,19 @@ main section{
     .banner-description{
         font-size: 0.875rem;
     }
+
+
+    /* Our Plants */
+    .our-plants-container{
+        grid-template-columns: repeat(2,1fr);
+        gap: 1rem;
+    }
+
+    .item-title,.item-price{
+    font-size: 1rem;
+    }
+
+    
 
 }
 
