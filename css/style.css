@@ -82,7 +82,18 @@
 
 /* Media Query */
 
+@media screen and (max-width: 576px) {
+    .navbar{
+        padding: 0.625rem;
+    }
+    .navbar img{
+        width: 65px;
+    }
 
+    .active{
+        display: none;
+    }
+}
 
 
 /* End Media Query */
