@@ -265,6 +265,16 @@ main section{
 
 
     /* Our Plants */
+
+    .section-title{
+        font-size: 1.5rem;
+    }
+
+    .plants-description{
+        font-size: 0.875rem;
+    }
+
+
     .our-plants-container{
         grid-template-columns: repeat(2,1fr);
         gap: 1rem;
