@@ -72,10 +72,72 @@
     color: #000000;
 }
 
-
-
-
 /* End Nav CSS */
+
+/* Header Banner CSS */
+
+
+
+
+.header-banner{
+    margin-top: 7.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.25rem;
+}
+
+
+.banner-text{
+    max-width: 570px;
+}
+
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 13px;
+
+}
+.banner-title span{
+    color: #E95A08;
+}
+
+.banner-description{
+    font-size: 1.375rem;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+}
+
+
+.header-banner img{
+    width: 570px;
+    height: 355px;
+}
+
+
+
+
+
+/* End Header Banner CSS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -93,6 +155,17 @@
     .active{
         display: none;
     }
+
+
+    /* Header Banner */
+
+    
+
+
+
+
+
+
 }
 
 
