@@ -24,6 +24,27 @@
 
 /* Common CSS */
 
+.section-title{
+    font-size: 3.125rem;
+    font-weight: 700;;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.primary-btn{
+    font-size: 1rem;
+    color: #fff;
+    background-color: #E95A08;
+    border: none;
+    padding: 20px 0;
+    width: 100%;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
 
 
 /* End Common CSS */
@@ -77,8 +98,6 @@
 /* Header Banner CSS */
 
 
-
-
 .header-banner{
     margin-top: 7.5rem;
     display: flex;
@@ -113,15 +132,76 @@
     width: 570px;
     height: 355px;
 }
-
-
-
-
-
 /* End Header Banner CSS */
 
 
+/* Main CSS */
 
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 1.25rem;
+}
+
+main section{
+    margin-top: 3.75rem;
+}
+
+/* End Main CSS */
+
+
+/* Our Plants CSS */
+
+
+.section-title span{
+    color: #E95A08;
+}
+
+.plants-text-container{
+    margin-bottom: 3rem;
+}
+.plants-text-container h1{
+    margin-bottom: 1rem;
+}
+
+
+.plants-description{
+    font-size: 1.375rem;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+    max-width: 888px;
+    margin: 0 auto;
+}
+
+.our-plants-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1.875rem;
+
+}
+.plants-item img {
+    width: 100%;
+}
+
+.plants-item,.item-info{
+    max-width: 350px;
+}
+
+.item-title,.item-price{
+    font-size: 1.375rem;
+    color: #111111;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.item-price{
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+}
+
+/* End Our Plants CSS */
 
 
 
