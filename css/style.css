@@ -321,7 +321,27 @@ main section{
     font-size: 1rem;
     }
 
-    
+    /* flower plants */
+
+    .flower-plants{
+        margin: 0;
+    }
+
+    .flower-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 1.125rem;
+    }
+
+    .flower-img-container img{
+        width: 100%;
+        height: auto;
+        
+    }
+
+    .flower-text-container ul li{
+        font-size: 0.875rem;
+    }
 
 }
 
