@@ -43,6 +43,16 @@
     font-weight: 600;
     cursor: pointer;
 }
+.join-btn{
+    font-size: 1rem;
+    color: #fff;
+    background-color: #E95A08;
+    border: none;
+    padding: 20px 0;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0.625rem 1.25rem;
+}
 
 
 
@@ -314,7 +324,47 @@ button:hover {
 
 
 
+/* subscribe-section CSS */
 
+.subscribe-section{
+    background-image: url('../assets/news-letter-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10rem ;
+    margin-top: 7.5rem; ;
+}
+
+/* .subscribe-container{
+    max-width: 900px;
+    margin: 0 auto;
+} */
+
+.subscribe-title{
+    color: #FFFFFF;
+}
+
+.subscribe-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.subscribe-form input[type="email"]{
+    width: 40%;
+    padding: 0.73rem 1.25rem;
+    border: none;
+}
+
+
+
+
+
+
+
+/* End subscribe-section */
 
 
 
@@ -419,11 +469,10 @@ button:hover {
     .grid-container {
 
         grid-template-columns: 1fr;
-        
     }
 
     .large-card {
-    height: 201px;
+        height: 201px;
     }
 
     .dis-25{
@@ -433,6 +482,27 @@ button:hover {
     .btn-shop{
         font-size: 1rem;
     }
+
+
+    .subscribe-section{
+        padding: 5rem 0;
+    }
+
+    .subscribe-form input[type="email"]{
+        padding: 0.73rem 1.25rem;
+    }
+
+    .subscribe-title{
+        font-size: 1.5rem;
+        width: 300px ;
+        margin: 0 auto;
+        
+    }
+
+
+
+
+
 }
 
 
