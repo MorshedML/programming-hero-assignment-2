@@ -245,6 +245,73 @@ main section{
 /* End Flower plants CSS */
 
 
+/* Latest Deal CSS */
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 366.22px 900px;
+    gap: 20px;
+    align-items: center;
+    margin-top: 3.75rem;
+}
+
+.left-column {
+    display: grid;
+    gap: 20px;
+}
+
+.card {
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    background-blend-mode: overlay; 
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    position: relative;
+    overflow: hidden;
+    display: flex;            
+    justify-content: center;  
+    align-items: center;      
+    text-align: center; 
+}
+
+.small-card {
+    height: 201px;
+}
+
+.large-card {
+    height: 423.13px;
+}
+
+.discount {
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-bottom: 5px;
+}
+.dis-25{
+    font-size: 2.5rem;
+}
+
+button {
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 0;
+}
+.btn-shop{
+    font-size: 1.625rem;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* End Latest Deal CSS */
+
 
 
 
@@ -347,6 +414,25 @@ main section{
         display: none;
     }
 
+    /* Latest Deals */
+    
+    .grid-container {
+
+        grid-template-columns: 1fr;
+        
+    }
+
+    .large-card {
+    height: 201px;
+    }
+
+    .dis-25{
+        font-size: 1.25rem;
+    }
+
+    .btn-shop{
+        font-size: 1rem;
+    }
 }
 
 
