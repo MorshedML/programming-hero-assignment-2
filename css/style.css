@@ -343,6 +343,10 @@ main section{
         font-size: 0.875rem;
     }
 
+    .trusted-badge{
+        display: none;
+    }
+
 }
 
 
