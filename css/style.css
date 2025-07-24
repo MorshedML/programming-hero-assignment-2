@@ -238,6 +238,7 @@ main section{
     right: 0;
     left: 350px;
     width: 286px;
+    animation: badgeAnimation 3s ease-in-out 0s infinite normal ;
 }
 
 .flower-text-container{
@@ -430,6 +431,24 @@ button:hover {
 
 /* End footer section */
 
+
+/*  Optional Part Animation  */
+
+@keyframes badgeAnimation {
+    0% {
+        rotate: 0deg;
+        
+    }
+    100% {
+        rotate: 360deg;
+    }    
+}
+
+
+
+
+
+/* End Optional Part */
 
 
 
